@@ -27,5 +27,4 @@ paver install_pages > log/paver_install_pages.log
 # Set the display to the virtual frame buffer (Xvfb)
 export DISPLAY=:1
 
-# Run the tests
-paver e2e_test --ignore=regression/tests/enterprise --ignore=regression/tests/whitelabel
+paver e2e_test
